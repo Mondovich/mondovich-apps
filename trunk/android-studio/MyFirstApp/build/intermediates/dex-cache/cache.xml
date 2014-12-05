@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\raimondos\AndroidstudioProjects\MyFirstApp\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-3f1ffe8a3759a0d4841b73d112b08240f5e0b11a.jar"
+        jar="C:\Users\raimondos\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6"/>
+    <item
+        dex="C:\Users\raimondos\AndroidstudioProjects\MyFirstApp\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-33f0629665f29fe8583e4120f10c1d3945097512.jar"
+        jar="C:\Users\raimondos\AndroidstudioProjects\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f"/>
+    <item
+        dex="C:\Users\raimondos\AndroidstudioProjects\MyFirstApp\app\build\intermediates\pre-dexed\debug\classes-e14f40e845af390c417470d513a7e1ea0ab0b23f.jar"
+        jar="C:\Users\raimondos\AndroidstudioProjects\MyFirstApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3"/>
+
+</pre-dex-items>
