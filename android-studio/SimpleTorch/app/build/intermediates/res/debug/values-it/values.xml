@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/raimondos/AndroidstudioProjects/SimpleTorch/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Torcia semplice</string>
+    <string name="flash_supported">FLASH SUPPORTATO</string>
+    <string name="flash_unsupported">FLASH NON SUPPORTATO</string>
+</resources>

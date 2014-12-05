@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleTorch</string>
+    <string name="flash_supported">FLASH SUPPORTED</string>
+    <string name="flash_unsupported">FLASH UNSUPPORTED</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+</resources>
