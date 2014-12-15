@@ -9,5 +9,8 @@
     <string name="title_activity_display_message">My Message</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_search">Search</string>
+    <string name="network_unavailable">Network unavailable!</string>
+    <string name="please_wait">Please wait...</string>
 
 </resources>
+

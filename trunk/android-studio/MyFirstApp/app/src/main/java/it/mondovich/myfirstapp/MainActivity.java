@@ -1,12 +1,18 @@
 package it.mondovich.myfirstapp;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import it.mondovich.myfirstapp.tasks.GetServerDataTask;
 
 public class MainActivity extends Activity {
 	
@@ -16,6 +22,16 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+        ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        if (networkInfo != null && networkInfo.isConnected()) {
+            new GetServerDataTask(this).execute("http://echo.jsontest.com/key/value/one/two");
+        } else {
+            Context context = getApplicationContext();
+            Toast toast = Toast.makeText(context, R.string.network_unavailable, Toast.LENGTH_SHORT);
+            toast.show();
+        }
 	}
 
 	@Override
