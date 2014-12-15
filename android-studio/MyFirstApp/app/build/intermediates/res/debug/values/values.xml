@@ -40,6 +40,8 @@
     <string name="button_send">Send</string>
     <string name="edit_message">Enter a message</string>
     <string name="hello_world">Hello world!</string>
+    <string name="network_unavailable">Network unavailable!</string>
+    <string name="please_wait">Please wait...</string>
     <!-- From: file:/C:/Users/raimondos/AndroidstudioProjects/MyFirstApp/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string name="pref_default_display_name">John Smith</string>
